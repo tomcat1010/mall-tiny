@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.macro.mall.tiny.modules.ums.mapper.UmsStockTransactionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.macro.mall.tiny.modules.ums.model.UmsStockTransaction">
+        <id column="id" property="id" />
+        <result column="stock_code" property="stockCode" />
+        <result column="stock_name" property="stockName" />
+        <result column="transaction_date" property="transactionDate" />
+        <result column="transaction_time" property="transactionTime" />
+        <result column="transaction_volume" property="transactionVolume" />
+        <result column="transaction_price" property="transactionPrice" />
+        <result column="transaction_amount" property="transactionAmount" />
+        <result column="operation" property="operation" />
+        <result column="agreement_no" property="agreementNo" />
+        <result column="transaction_no" property="transactionNo" />
+        <result column="service_fee" property="serviceFee" />
+        <result column="tax_fee" property="taxFee" />
+        <result column="transfer_fee" property="transferFee" />
+        <result column="else_fee" property="elseFee" />
+        <result column="fund_balance" property="fundBalance" />
+        <result column="stock_balance" property="stockBalance" />
+        <result column="stock_account" property="stockAccount" />
+        <result column="fund_account" property="fundAccount" />
+    </resultMap>
+
+</mapper>
